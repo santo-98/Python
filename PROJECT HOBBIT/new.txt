@@ -1,0 +1,24 @@
+CMS: Contains Alerts which are meant to be analyzed
+T24:- Contains Transactions and Customer Details 
+Customer Connect:- Contains Customer Details(Mobilenumber, DOB, Creditcard.no, Debitcard.no)
+
+
+Doubts:
+1. if transaction is done between creditor and debitor, then aleast one should be found in Historic Transactions?
+4. Credit card no:(Not Clear):
+  check whether the transaction is done from his credit card, say emi deduction
+
+
+
+1. Mobile Recharge Number:
+	Check whether customer recharged his number for himself
+2. Internal(within FAB):
+	Check whether customer transfers amount from his account to his account itself 
+3. External(Outside FAB- Other Banks):
+	Check whether customer transfers amount from FAB to customer in other banks 
+	Check whether amount transfered to right beneficiary. 
+	Historical Transactions: Since beneficiary name varies, we are checking whether debitor and creditor have history of transactions(more than 1 transaction)
+sharath. excalution 
+cshead@flipkart.com
+
+IN20081820370959983536

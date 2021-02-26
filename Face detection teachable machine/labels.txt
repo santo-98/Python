@@ -1,0 +1,3 @@
+0 Purse 1
+1 Purse 2
+2 Empty
